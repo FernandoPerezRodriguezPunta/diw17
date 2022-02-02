@@ -10,15 +10,18 @@ header{
 }
 
 
+p{
+    color: white;
+}
 
 
 main{
 
     display: grid;
 
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 1fr 1fr;
 
-    grid-template-rows: repeat(4,500px);
+    grid-template-rows: 1fr 1fr ;
 
     
     width: 100vw;
@@ -64,38 +67,7 @@ img{
 
 }
 
-figure:first-of-type{
-
-    grid-column: 2;
-
-
-}
-
-figure:nth-of-type(2){
-
-    grid-column: 2;
-  
-   
-
-
-}
-
-
-figure:nth-of-type(3){
-
-    grid-column: 2;
-
-
-
-}
-
-figure:nth-of-type(4){
- 
-    grid-column: 2;
-
-
-
-}
+f
 
 footer{
 
@@ -103,6 +75,7 @@ footer{
     align-items: center;
     justify-content: center;
     background-color: black;
+    width: 100vh;
 
 }
 @media only screen and (max-width : 500px) {
@@ -212,6 +185,7 @@ footer{
           align-items: center;
           justify-content: center;
           background-color: red;
+          color: white;
       
       }
 
@@ -220,3 +194,24 @@ footer{
 
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
